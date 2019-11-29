@@ -34,7 +34,7 @@ export default class App extends React.Component {
       .then(json => {
         console.log(json);
         this.setState({
-          temperature: json.main.temp,
+          temperature: parseInt(json.main.temp),
           weatherCondition: json.weather[0].main,
           location: json.name,
           isLoading: false

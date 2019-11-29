@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Minimalist Weather App",
+    "githubUrl": "https://github.com/dflima/minimalist-weather-app"
   }
 }
